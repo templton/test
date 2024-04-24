@@ -41,7 +41,7 @@ COPY . ${APP_DIR}
 RUN ls -l
 
 RUN  chown -R www-data:www-data /var/www \
-     && chmod -R 777 /var/www/apicode/src/web
+     && chmod -R 777 /var/www/apicode/src
 
 # Set timezone
 RUN ln -snf /usr/share/zoneinfo/${TIMEZONE} /etc/localtime && echo ${TIMEZONE} > /etc/timezone \
