@@ -7,3 +7,4 @@ car_files/
 src/supervisord.log
 src/supervisord.pid
 supervisord.log
+vendor/
