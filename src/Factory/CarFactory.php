@@ -17,5 +17,4 @@ class CarFactory
 
         return $mercedes;
     }
-
 }

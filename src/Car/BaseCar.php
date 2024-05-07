@@ -13,4 +13,9 @@ class BaseCar
 
     // Кол-во дверей
     public int $doorsCount;
+
+    public function __construct()
+    {
+        $this->sad = 11;
+    }
 }

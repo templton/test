@@ -9,3 +9,17 @@
 ```require __DIR__ . './../vendor/autoload.php';```
 
 4. namespace каждого файла начинается с App
+
+### PHPStan
+
+Установка: `composer require --dev phpstan/phpstan`
+
+Запуск: `docker exec -it api_php vendor/bin/phpstan analyse .`
+
+### PHPCS
+
+Установка: `composer require --dev squizlabs/php_codesniffer`
+
+Проверка: `docker exec -it api_php vendor/bin/phpcs .`
+
+Автоматическое исправление: `docker exec -it api_php vendor/bin/phpcbf .`
