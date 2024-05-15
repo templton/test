@@ -2,4 +2,7 @@
 <ruleset name="Training Standard">
 	<exclude-pattern>vendor/*</exclude-pattern>
 	<rule ref="PSR12" />
+	<rule ref="Generic.Files.LineEndings">
+		<exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
+	</rule>
 </ruleset>
